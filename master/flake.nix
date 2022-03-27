@@ -11,6 +11,7 @@
   inputs.src-jser-master.ref   = "refs/heads/master";
   inputs.src-jser-master.owner = "niv";
   inputs.src-jser-master.repo  = "jser.nim";
+  inputs.src-jser-master.dir   = "";
   inputs.src-jser-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

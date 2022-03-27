@@ -11,6 +11,7 @@
   inputs.src-jser-0_2_1.ref   = "refs/tags/0.2.1";
   inputs.src-jser-0_2_1.owner = "niv";
   inputs.src-jser-0_2_1.repo  = "jser.nim";
+  inputs.src-jser-0_2_1.dir   = "";
   inputs.src-jser-0_2_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
